@@ -5,6 +5,11 @@ namespace Bmes.Models.Product
     public class Brand : BaseObject
     {
         public string Name { get; set; }
-        public 
+        public string Slug { get; set; }
+        public string Description { get; set; }
+        public string MeteDescription { get; set; }
+        public string MeteKeywords { get; set; }
+        public BrandStatus BrandStatus { get; set; }
+
     }
 }
